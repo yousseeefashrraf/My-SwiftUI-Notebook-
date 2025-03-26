@@ -16,7 +16,7 @@ struct TwelveOrLess {
 
 In the following code, the ```height``` and ```width``` variables are wrapped by the ```TwelveOrLess``` property wrapper. By default, their values are set to 0. Whenever a user assigns a value to height or width, the property wrapper ensures the assigned value does not exceed 12.
 
-**Examples: **
+### Examples: 
 
 ```
 struct Rectangle {
@@ -39,12 +39,12 @@ print(number)
 //prints 12
 ```
 
-**Why Use Property Wrappers?**
+## Why Use Property Wrappers?
 Property wrappers are a powerful tool in Swift for reusing code that enforces certain constraints or behaviors on properties. For example:
 
 Imagine you have a database with a ```Student``` entity, and the ```password``` property must always be at least 8 characters long. Instead of repeating the validation logic every time the password is updated, you can create a property wrapper to enforce this rule consistently and reliably.
 
-**Projected Values**
+## Projected Values
 Another feature of property wrappers is projected values. A projected value provides an alternative view or representation of the property. It is accessed by prefixing the property with a ``` $ ``` symbol.
 
 
@@ -75,7 +75,7 @@ print(myObject.helloString)
 //prints "Hello, world!"
 ```
 
-Why Do We Use ``` wrappedValue ``` and ``` $ ```?
+## Why Do We Use ``` wrappedValue ``` and ``` $ ```?
 The Swift compiler uses specific naming conventions (wrappedValue and $) to identify property wrappers and their projected values. These conventions ensure that the wrapper works seamlessly with the compiler, even when dealing with complex properties or multiple wrappers.
 
 ```
