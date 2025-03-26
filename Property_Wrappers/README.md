@@ -1,4 +1,4 @@
-# **Property wrappers **
+#  Property wrappers 
 > A property wrapper adds a layer of separation between code that manages how a property is stored and the code that defines a property denoted by @propertyWrapper before the struct.
 
 ```
@@ -80,4 +80,4 @@ To understand, we need to see how does swift know that the specified value for t
 print(myObject.$helloString)
 //prints "HELLO, WORLD!"
 ```
-# **State management in SwiftUI **
+# State management in SwiftUI 
