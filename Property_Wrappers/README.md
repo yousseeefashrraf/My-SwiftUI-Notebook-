@@ -232,3 +232,14 @@ Yes, new one!
 | `@ObservedObject` | The parent view or another source | When passing an existing object to a child view | Does not retain the object; expects an external owner |
 
 
+$audioManager.currentTime is sugar for:
+
+swift
+Copy
+Edit
+Binding(
+    get: { audioManager.currentTime },
+    set: { audioManager.currentTime = $0 }
+)
+
+
