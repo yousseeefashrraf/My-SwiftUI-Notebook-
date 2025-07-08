@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  testingObjects
+
+  Created by Youssef Ashraf on 05/07/2025.
+  
+*/
+
+"Counter 1:" = "العداد الأول:";
+"Counter 2:" = "العداد الثاني:";
+"Increase Second" = "زود الثاني";
+"Increase first" = "زود الاول";
+
